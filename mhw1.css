@@ -1,0 +1,257 @@
+body
+{
+    background-color:whitesmoke;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a
+{
+   border-radius: 50px;
+   background-color:deepskyblue;
+   padding: 5px;
+   font-size: 18px;
+   color: black;
+   text-decoration: none; 
+   font-family:"Khula", Verdana;
+   font-style: normal;
+}
+
+nav a:hover
+{
+    background-color:aqua;
+}
+
+header
+{
+  height: 500px;
+  width: 100%;
+  background-image: url("Sfondo.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top:10px;
+  z-index: -1;
+}
+
+/* Raleway,Roboto Mono, Edu NSW ACT Foundation, Nanum Gothic,Indie Flower,Ubuntu Condensed, Josefin Slab, Merienda,Khula
+
+ */
+#titolo
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Josefin Slab",Luminari;
+    font-style: normal;
+    position:absolute;
+    left: 34%;
+    top: 50%;
+}
+
+#fotoUtente
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top:-50px;
+    z-index: 1;
+}
+
+#profilo
+{
+    text-align: center;
+
+}
+
+#nome
+{
+    font-family: "Ubuntu Condensed",Andale Mono;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#accesso
+{
+    color:dimgray;
+    font-family: "Nanum Gothic",Calibri;
+    font-style:oblique;
+    font-size: 14px;
+}
+
+
+footer
+{
+    display:block;
+    height: 100px;
+    background-color:chocolate;
+    text-align: center;
+    font-family:"Asap", Georgia;
+    font-style: normal;
+
+}
+
+
+#flex-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+article
+{
+    width: 66.67%;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.numero
+{
+    font-family: "Merriweather Sans", Times New Roman;
+    font-style: normal;
+    font-size: 32px;
+    color:deepskyblue;
+}
+
+.calciatore
+{
+    font-size: 40px;
+    margin-left: 40px; 
+    font-family: "Merienda", Calibri;
+    font-style: normal;
+
+}
+
+.immagine
+{
+    width: 80%;
+    margin-left: 70px;
+}
+
+p
+{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-family: "Khula",Arial;
+    font-style: normal;
+    color:dimgrey;
+}
+
+footer div
+{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    font-size:20px;
+    font-family: "Indie Flower", Calibri;
+    font-style: normal;
+}
+
+.caratteristica
+{
+    margin-left: 70px;
+    font-family: "Roboto Mono",Marker Felt;
+    font-style: normal;
+    color: brown;
+}
+
+#overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*@media (max-width: 800px) {
+
+    .calciatore
+    {
+        font-size: 25px;
+    }
+    .numero
+    {
+        font-size: 22px;
+    }
+
+
+}*/
+
+@media (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+
+    #titolo
+    {
+        font-size: 15px;
+        left: 25%;
+    }
+    
+    header
+    {
+        height: 300px;
+    }
+
+    nav a
+    {
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    article
+    {
+        margin-bottom: 50px;
+    }
+    #fotoUtente
+    {
+        height: 70px;
+        width: 70px;
+        margin-top: -35px;
+    }
+
+    .calciatore
+    {
+        font-size: 20px;
+    }
+    .caratteristica
+    {
+        margin-left: 60px;
+        font-size:10px;
+    }
+    .immagine
+    {
+        margin-left: 60px;
+    }
+    p
+    {
+        margin-left:60px;
+    }
+
+    .numero
+    {
+        font-size: 20px;
+    }
+    #accesso
+    {
+        font-size:10px;
+    }
+    footer div
+    {
+        font-size: 15px;
+    }
+
+}
+
+.video
+{
+    color: brown;
+}
